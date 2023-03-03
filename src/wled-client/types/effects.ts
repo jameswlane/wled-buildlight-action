@@ -79,3 +79,4 @@ export type Effects =
   | 'Smooth Meteor'
   | 'Railway'
   | 'Ripple'
+  | string;

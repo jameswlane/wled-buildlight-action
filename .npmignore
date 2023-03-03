@@ -1,0 +1,17 @@
+.github
+coverage
+src
+test
+.all-contributorsrc
+.eslintrc.js
+.npmrc
+.nvmrc
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+jest.config.json
+lint-staged.config.js
+now.json
+package-lock.json
+renovate.json
+size-snapshot.json
+tsconfig.json

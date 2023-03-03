@@ -7,6 +7,7 @@ import { Palettes } from './types/palettes';
 
 export class WebClient {
   url: string;
+
   private api: string;
 
   constructor(url: string) {

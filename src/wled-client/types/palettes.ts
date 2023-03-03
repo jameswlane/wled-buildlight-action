@@ -46,3 +46,4 @@ export type Palettes =
   | 'Orange & Teal'
   | 'Tiamat'
   | 'April Night'
+  | string;

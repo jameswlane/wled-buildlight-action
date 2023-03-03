@@ -2,10 +2,15 @@ name: 'WLED Buildlight'
 description: 'Provide a description here'
 author: 'jameswlane'
 inputs:
-  milliseconds: # change this
+  url:
+    description: 'URL or IP address to WLED'
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+  palette:
+    description: 'Palette Name'
+    required: false
+  effect:
+    required: false
+    description: 'Effect Overlay'
 runs:
-  using: 'node16'
+  using: 'node18'
   main: 'dist/index.js'
